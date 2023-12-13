@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Src/Field/bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="..Src/Styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../Src/Styles/magenta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Starbucks</title>
+    <link rel="icon" href="../Src/Img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="circle"></div>
+    <nav class="shadow-sm p-3 bg-white rounded">
+        <a href="https://www.starbucks.com.co/" id="logo"><img height="50px" src="../Src/Img/logo.png"></a>
+        <input type="checkbox" id="hamburger" />
+        <label for="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li>
+            <a href="https://www.starbucks.com.co/" class="active">Inicio</a>
+            </li>
+            <li>
+            <a href="https://www.starbucks.com.co/menu">Menu</a>
+            </li>
+            <li>
+            <a href="https://www.starbucks.com.co/seccion/novedades">Novedades</a>
+            </li>
+            <li>
+            <a href="https://www.starbucks.com.co/stores">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="text-box">
+            <h2>Frapuccino <br><span>Barbie</span></h2>
+            <p>Starbucks Corp <b>(Starbucks)</b> is a specialty coffee retailer. It roasts, markets, and retails specialty coffee. The company, through its stores, offers several blends of coffee, handcrafted beverages, merchandise, and food items.</p>
+            <a href="https://www.starbucks.com.co/">Learn More</a>
+        </div>
+        <div class="img-box">
+            <img src="../Src/Img/img2.png" class="starbucks" alt="">
+        </div>
+    </div>
+    <ul class="thumb">
+        <li>
+            <a href="../index.html" style="text-decoration: none;">   
+                <img src="../Src/Img/thumb1.png " onclick="imgSlider('img1.png');changeCircleColor('#017143')">
+            </a>
+        </li>
+        <li>
+            <a href="rosado.html">
+            <img src="../Src/Img/thumb2.png" onclick="imgSlider('img2.png');changeCircleColor('#0eb7495')">
+        </a>
+        </li>
+        <li>
+            <a href="magenta.html">
+                <img src="../Src/Img/thumb3.png" onclick="imgSlider('img3.png');changeCircleColor('#d752b1')">
+            </a>
+        </li>
+    </ul>
+    <ul class="social">
+        <li><a href="https://www.facebook.com/StarbucksColombia/?locale=es_LA"><img height="40px" style="padding-bottom: 10px;" src="../Src/Img/facebook.png"></a></li>
+        <li><a href="https://www.instagram.com/starbucks/"><img height="40px" style="padding-bottom: 10px;" src="../Src/Img/instagram.png"></a></li>
+        <li><a href="https://twitter.com/StarbucksCOL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img height="40px" style="padding-bottom: 10px;" src="../Src/Img/twitter.png"></a></li>
+    </ul>
+    <script src="../Src/js/main.js"></script>
+    <script src="../Src/Field/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
